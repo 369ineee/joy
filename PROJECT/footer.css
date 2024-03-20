@@ -1,0 +1,56 @@
+footer{
+    width: 100%;
+    background-color: #1D57AA;
+    color: white;
+    padding: 20px; /* Adjust padding as needed */
+    position: absolute;
+    height: 125px;
+    bottom: -1000px;
+    margin-left: -80px;
+}
+
+.ftimg{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+footer .footer-links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 90px;
+}
+
+footer .link{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: #b9b9b9;
+}
+
+footer a:active{
+    color: gray;
+}
+
+footer .link h2{
+    margin-bottom: 30px;
+}
+
+footer a.inline,p.inline{
+    display: inline;
+    vertical-align: top;
+}
+
+footer a.block{
+    display: block;
+    margin-bottom: 8px;
+}
